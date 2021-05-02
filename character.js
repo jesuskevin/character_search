@@ -23,10 +23,6 @@ fetch(`https://api.jikan.moe/v3/search/character?q=${character}`)
         <h2>${found.name}</h2>
         <ul>
             <li><a href="${found.url}" target="_blank">MyAnimeList</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
         </ul>
       `;
 
